@@ -2,9 +2,9 @@
 A pack of some additional attachments I created for my own use in darsu's EFT and for roleplay purposes.
 This pack includes:
 
-  Rate of Fire Increase (10%, 20%, 25% and 50%)
-  Rate of Fire Decrease (10%, 20%, 25% and 50%)
-  Burst Fire Selectors (2, 3, 4 and 5 round burst, can switch to semi auto)
+ - Rate of Fire Increase (10%, 20%, 25% and 50%)
+ - Rate of Fire Decrease (10%, 20%, 25% and 50%)
+ - Burst Fire Selectors (2, 3, 4 and 5 round burst, can switch to semi auto)
   Recoil Buffs as standalone (full and lite)
   Explosive .50AE bullets (REQUIRES ARC9 EFT DESERT EAGLE)
   Ergonomics+ for faster ADS speed
