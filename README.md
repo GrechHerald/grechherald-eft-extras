@@ -1,4 +1,4 @@
-# grechherald-eft-extras
+# GrechHerald's EFT Extras
 A pack of some additional attachments I created for my own use in darsu's EFT and for roleplay purposes.
 This pack includes:
 - Rate of Fire Increase (10%, 20%, 25% and 50%)
