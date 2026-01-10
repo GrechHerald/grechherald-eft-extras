@@ -22,3 +22,5 @@ This pack includes:
 - Burst Fire Selector icons replacing the old ones
 - CAR-15 and M4 handguards that allow M-LOK grips and 4.1 inch rails on them (very tactical)
 
+Credits to Darsu, Stan_Jacobs, Arctic, 1Cento, Gunsmith Reloaded for some of the code
+# YOU MAY NOT USE THIS PACK FOR COMMERCIAL PURPOSES
