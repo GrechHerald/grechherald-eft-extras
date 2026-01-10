@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"entities\eft_extras_attachments\ergonomics"
+     "$alphatest"	"1"
+     "$decal"		"1"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "33"
+}
+}
+}
