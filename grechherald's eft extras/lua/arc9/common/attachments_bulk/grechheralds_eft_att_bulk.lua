@@ -501,3 +501,94 @@ ATT.Attachments = {
 ATT.Category = {"eft_hglower_skinny"}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_skinny_lower_tac")
+
+///////////////////////////////////////      eft_tactical_peq2_side
+
+ATT = {}
+
+ATT.PrintName = "Insight AN/PEQ-2 tactical device"
+ATT.CompactName = "AN/PEQ-2"
+ATT.Description = [[ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN/PEQ-2 produced by L3 Insight Technologies. Tactical device that combines an IR laser designator with an IR searchlight.
+Duplicate version so it can be mounted on the side of weapons that support "eft_tactical_top"
+GrechHerald's EFT Extras]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"eft_tactical_top"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq2.mdl"
+
+-- red laser
+-- ir + laser
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+ARC9.LoadAttachment(ATT, "eft_tactical_peq2_side")
+
+///////////////////////////////////////      eft_gas_ar15_mk12g1_universal
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Precision Reflex Mk12 Gen.1 Flip-Up Front Sight Gas Block (Universal)"
+ATT.CompactName = "Mk12 Gen.1"
+ATT.Icon = Material("entities/eft_extras_attachments/mk12g1_universal.png", "mips smooth")
+ATT.Description = [[A gas block with an integrated foldable front sight for the AR-15 platform. Manufactured by Precision Reflex.
+Duplicate version, can be mounted on any AR-15 barrel.
+
+GrechHerald's EFT Extras]]
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasGas = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/gas_block_ar15_precision_reflex_mk12_gen_1_folding_gas_block.mdl"
+ATT.EFTErgoAdd = 0.5
+ATT.CustomPros = { Ergonomics = "+0.5" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+ATT.Category = {"eft_ar15_gasblock"}
+ATT.ActivateElements = {"gasblock_big"}
+
+ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, (swep:GetValue("FoldSights") or swep:HasElement("eft_frontsight")) and 1 or 0) end
+
+ARC9.LoadAttachment(ATT, "eft_gas_ar15_mk12g1_universal")
