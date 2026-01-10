@@ -1060,3 +1060,205 @@ ATT.Attachments = {
 
 ATT.Category = {"eft_custom_slot"}
 ARC9.LoadAttachment(ATT, "eft_rifle_hold_3")
+
+///////////////////////////////////////      eft_tracer_white
+
+ATT = {}
+
+ATT.PrintName = "Tracer White"
+ATT.CompactName = "Tracer (W)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_white.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (White)
+RGB: 255, 255, 255
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(255, 255, 255)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_white")
+
+///////////////////////////////////////      eft_tracer_yellow
+
+ATT = {}
+
+ATT.PrintName = "Tracer Yellow"
+ATT.CompactName = "Tracer (Y)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_yellow.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (Yellow)
+RGB: 255, 230, 100
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(255, 230, 100)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_yellow")
+
+///////////////////////////////////////      eft_tracer_red
+
+ATT = {}
+
+ATT.PrintName = "Tracer Red"
+ATT.CompactName = "Tracer (R)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_red.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (Red)
+RGB: 255, 16, 16
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(255, 16, 16)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_red")
+
+///////////////////////////////////////      eft_tracer_green
+
+ATT = {}
+
+ATT.PrintName = "Tracer Green"
+ATT.CompactName = "Tracer (G)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_green.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (Green)
+RGB: 16, 255, 36
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(16, 255, 36)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_green")
+
+///////////////////////////////////////      eft_tracer_blue
+
+ATT = {}
+
+ATT.PrintName = "Tracer Blue"
+ATT.CompactName = "Tracer (B)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_blue.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (Blue)
+RGB: 70, 135, 255
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(70, 135, 255)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_blue")
+
+///////////////////////////////////////      eft_tracer_default
+
+ATT = {}
+
+ATT.PrintName = "Tracer Default"
+ATT.CompactName = "Tracer"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_default.png", "mips smooth")
+ATT.Description = [[Just enables the default ARC9 tracers
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_default")
