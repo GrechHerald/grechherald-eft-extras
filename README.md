@@ -21,3 +21,4 @@ This pack includes:
 - PCT V2 that uses Player Colour instead of Physgun Colour
 - Burst Fire Selector icons replacing the old ones
 - CAR-15 and M4 handguards that allow M-LOK grips and 4.1 inch rails on them (very tactical)
+
