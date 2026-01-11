@@ -15,6 +15,7 @@ works on semi auto
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 1.1 
@@ -45,6 +46,7 @@ works on semi auto
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 1.2 
@@ -75,6 +77,7 @@ works on semi auto
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 1.25 
@@ -105,6 +108,7 @@ good gaming chair
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 1.5 
@@ -132,11 +136,12 @@ ATT.CompactName = "RoF -10%"
 ATT.Icon = Material("entities/eft_extras_attachments/bad_gaming_chair.png", "mips smooth")
 ATT.Description = [[10% rate of fire decrease
 
-!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL!!!
+!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL !!!
 
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 0.9 
@@ -163,11 +168,12 @@ ATT.CompactName = "RoF -20%"
 ATT.Icon = Material("entities/eft_extras_attachments/bad_gaming_chair.png", "mips smooth")
 ATT.Description = [[20% rate of fire decrease
 
-!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL!!!
+!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL !!!
 
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 0.8 
@@ -194,11 +200,12 @@ ATT.CompactName = "RoF -25%"
 ATT.Icon = Material("entities/eft_extras_attachments/bad_gaming_chair.png", "mips smooth")
 ATT.Description = [[25% rate of fire decrease
 
-!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL!!!
+!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL !!!
 
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 0.75 
@@ -225,11 +232,12 @@ ATT.CompactName = "RoF -50%"
 ATT.Icon = Material("entities/eft_extras_attachments/bad_gaming_chair.png", "mips smooth")
 ATT.Description = [[50% rate of fire decrease
 
-!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL!!!
+!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL !!!
 
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
 ATT.Free = true
 
 ATT.RPMMult = 0.5 
@@ -261,6 +269,7 @@ because I wasn't satisfied with the EFT Extras+ one
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.Firemodes = {
@@ -301,6 +310,7 @@ because I wasn't satisfied with the EFT Extras+ one
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.Firemodes = {
@@ -341,6 +351,7 @@ because I wasn't satisfied with the EFT Extras+ one
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.Firemodes = {
@@ -380,6 +391,7 @@ because I wasn't satisfied with the EFT Extras+ one
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.Firemodes = {
@@ -419,6 +431,7 @@ clicking only once fires the entire burst
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.RunawayBurst = true
@@ -460,6 +473,7 @@ clicking only once fires the entire burst
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.RunawayBurst = true
@@ -501,6 +515,7 @@ clicking only once fires the entire burst
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.RunawayBurst = true
@@ -541,6 +556,7 @@ clicking only once fires the entire burst
 GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Bursts"
 ATT.AttNotForNPCs = true
 ATT.Free = true
 ATT.RunawayBurst = true
@@ -1296,4 +1312,5 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_tracer_default")
+
 
