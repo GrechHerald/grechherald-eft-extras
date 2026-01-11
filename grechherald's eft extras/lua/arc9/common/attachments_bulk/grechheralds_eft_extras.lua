@@ -1231,6 +1231,40 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_tracer_blue")
 
+///////////////////////////////////////      eft_tracer_purple
+
+ATT = {}
+
+ATT.PrintName = "Tracer Purple"
+ATT.CompactName = "Tracer (P)"
+ATT.Icon = Material("entities/eft_extras_attachments/tracer_purple.png", "mips smooth")
+ATT.Description = [[Makes all your bullets fire Tracer Rounds (Purple)
+RGB: 205, 72, 255
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Tracers"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(205, 72, 255)
+ATT.CustomPros = { Tracer = "Enables" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_tracer_purple")
+
 ///////////////////////////////////////      eft_tracer_default
 
 ATT = {}
@@ -1262,3 +1296,4 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_tracer_default")
+
