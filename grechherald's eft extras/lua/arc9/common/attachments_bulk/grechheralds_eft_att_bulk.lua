@@ -592,3 +592,109 @@ ATT.ActivateElements = {"gasblock_big"}
 ATT.DrawFunc = function(swep, model) model:SetBodygroup(1, (swep:GetValue("FoldSights") or swep:HasElement("eft_frontsight")) and 1 or 0) end
 
 ARC9.LoadAttachment(ATT, "eft_gas_ar15_mk12g1_universal")
+
+///////////////////////////////////////      eft_barrel_ar15_hanson_16_m4fs
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Hanson Carbine 5.56x45 16 inch barrel"
+ATT.CompactName = "Hanson 16\""
+ATT.Icon = Material("entities/eft_extras_attachments/hanson16_m4fs.png", "mips smooth")
+ATT.Description = [[The Hanson Carbine barrel for AR-15 based weapons for 5.56x45 NATO ammo, 16 inch long.
+This version allows for the installation of the M4FS gas block.
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 406
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_ba_hanson_carbine_pro_406mm.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
+ATT.BarrelLengthAdd = 5
+
+ATT.EFTErgoAdd = -15
+ATT.CustomCons = { Ergonomics = "-15" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.HeatCapacityMult = 0.96
+ATT.PhysBulletMuzzleVelocityMult = 0.945
+ATT.Spread = 1.03 * ARC9.MOAToAcc
+
+ATT.Category = {"eft_m4a1_barrel"}
+
+ATT.ActivateElements = {"barrel_406mm", "barrel_16i"}
+
+-- ATT.ExcludeElements = {"eft_hg_ar15_m4", "eft_hg_ar15_kacris", "eft_hg_ar15_ionlite", "eft_hg_ar15_ax15_158", "eft_hg_ar15_viper"}
+
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_gasblock"),
+        Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
+        Pos = Vector(-9.82, 0, 0.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
+        Category = "eft_ar15_muzzle",
+        Pos = Vector(-15.95, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_barrel_ar15_hanson_16_m4fs")
+
+///////////////////////////////////////      eft_barrel_ar15_16i_mk12_m4fs
+
+ATT = {}
+
+ATT.PrintName = "AR-15 5.56x45 Centurion Arms Mk12 16 inch barrel"
+ATT.CompactName = "Mk12 16\""
+ATT.Icon = Material("entities/eft_extras_attachments/mk12_16inch_m4fs.png", "mips smooth")
+ATT.Description = [[A 16 inch (406mm) barrel for AR-15 platform weapons for 5.56x45 NATO ammo. Manufactured by Centurion Arms.
+This version allows for the installation of the M4FS gas block.
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 406
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasBarrel = true
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/barrel_ar15_centurion_arms_mk12_406mm.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
+ATT.BarrelLengthAdd = 5
+
+ATT.EFTErgoAdd = -17
+ATT.CustomCons = { Ergonomics = "-17" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.PhysBulletMuzzleVelocityMult = 0.949
+ATT.HeatCapacityMult = 0.96
+ATT.Spread = 1.03 * ARC9.MOAToAcc
+
+ATT.Category = {"eft_m4a1_barrel"}
+
+ATT.ActivateElements = {"barrel_406mm", "barrel_16i"}
+
+-- ATT.ExcludeElements = {"eft_hg_ar15_m4", "eft_hg_ar15_kacris", "eft_hg_ar15_ionlite", "eft_hg_ar15_viper"}
+
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_gasblock"),
+        Category = "eft_ar15_gasblock",
+        ExcludeElements = {"nostdgasblockpls"},
+        Pos = Vector(-9.71, 0, 0.25),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
+        Category = "eft_ar15_muzzle",
+        Pos = Vector(-15.55, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_barrel_ar15_16i_mk12_m4fs")
