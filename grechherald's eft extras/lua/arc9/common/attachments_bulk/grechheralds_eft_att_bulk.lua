@@ -698,3 +698,76 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_barrel_ar15_16i_mk12_m4fs")
+
+///////////////////////////////////////      mills_handguard_m16_heatshield_patch
+
+ATT = {}
+
+ATT.PrintName = "Colt USGI M203 Grenade Launcher Handguard"
+ATT.CompactName = "M16 Heatshield"
+ATT.Icon = Material("entities/eft_extras_attachments/m16_heatshield.png", "mips smooth")
+ATT.Description = [[The USGI M203 Grenade Launcher Handguard developed by Colt allows for the installation of an M203 UBGL to an M16. A foldable leaf sight allows the user to aim the grenade launcher, but the sight itself is missing from this handguard. Wonder where it went...
+
+"You want to play? Say hello to my little friend!"
+Patched version, can be mounted on the official Tarkov Mk12 18" and A2 20" barrels, M203 fixed
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.HasHG = true
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+ATT.HeatCapacityMult = 0.968
+ATT.Model = "models/weapons/arc9/mills/mods/mills_handguard_m16_usgi_heatshield.mdl"
+ATT.LHIK = true
+ATT.LHIK_Priority = 0 -- needs UBGL
+
+ATT.Category = {"eft_ar15_hguard"}
+
+ATT.ActivateElements = {"eft_barrel_ar15_370mm", "eft_m203_allowed"}
+ATT.ExcludeElements = {"barrel_10i", "barrel_145i", "barrel_16i", "eft_barrel_ar15_18i", "eft_barrel_ar15_20i"}
+
+ATT.Attachments = {}
+
+ARC9.LoadAttachment(ATT, "mills_handguard_m16_heatshield_patch")
+
+///////////////////////////////////////      eft_hg_ar15_m16a2_lower_tac
+
+ATT = {}
+ATT.PrintName = "AR-15 Colt A2 lower handguard"
+ATT.CompactName = "M16A2 lower"
+ATT.Icon = Material("entities/eft_extras_attachments/m16a2_lower_hg_mlok.png", "mips smooth")
+ATT.Description = [[A bottom part of the A2 handguard, manufactured by Colt. Standard-issue handguard for M16A2 rifles.
+Allows installation of M-LOK grips, 4.1 inch rails and other tactical attachments
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/handguard_ar15_colt_m16a2_std_lower.mdl"
+ATT.LHIK = true
+ATT.LHIK_Priority = 1 -- lower
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.ExcludeElements = {"eft_m203"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
+        Category = {"eft_mount_mlok41", "eft_foregrip_mlok"},
+        Pos = Vector(0, 2.7, 1),
+        Ang = Angle(1, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+        PrintName = ARC9:GetPhrase("eft_cat_mount_b"),
+        Category = {"eft_mount_mlok", "eft_mount_mlokcanti", "eft_mount_mlokoffset", "eft_mount_mlok_bipod"},
+        Pos = Vector(0, 10, 0.9),
+        Ang = Angle(0.1, -90, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ATT.Category = {"eft_hglower_m16a2"}
+
+ARC9.LoadAttachment(ATT, "eft_hg_ar15_m16a2_lower_tac")
