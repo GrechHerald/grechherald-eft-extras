@@ -2,4 +2,6 @@ added duplicate AN/PEQ-2 that can be mounted on tactical side rails
 added universal Mk12 Gen 1 gas block that can be used with any AR-15 barrel 
 added tracer attachments (default, blue, green, purple, red, white, yellow) separate from the buffs attachment from darsu' EFT Extras
 added duplicate Hanson and Mk12 16" barrels that allow installation of the M4 Front Sight gas block
+added patched version of the M16 Heatshield M203 handguard (from MillsTC's M16A4 SPT port)
+added M16A2 lower handguard with M-LOK
 cleaned up the custom slot by categorising RoF Increase/Decrease and Bursts into folders ("Bursts" and "RoF Mods" respectively) (this will NOT break any of your builds)
