@@ -1313,4 +1313,41 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_tracer_default")
 
+///////////////////////////////////////      eft_auto_selector
 
+ATT = {}
+
+ATT.PrintName = "Auto Selector"
+ATT.CompactName = "Auto Selector"
+ATT.Icon = Material("entities/eft_extras_attachments/full_auto_selector.png", "mips smooth")
+ATT.Description = [[Fire Selector with Full Auto and Semi
+proper selector positions!
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+ATT.Firemodes = {
+    {
+	    Mode = -1, 
+		PoseParam = 2,
+	},
+	{
+        Mode = 1,
+		PoseParam = 1,
+		RPM = 450,
+	},
+}	
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_auto_selector")
