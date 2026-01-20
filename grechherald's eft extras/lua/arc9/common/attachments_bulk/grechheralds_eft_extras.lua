@@ -18,7 +18,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 1.1 
+ATT.RPMMult = 1.1
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -49,7 +49,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 1.2 
+ATT.RPMMult = 1.2
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -80,7 +80,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 1.25 
+ATT.RPMMult = 1.25
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -94,6 +94,37 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_25_more_rpm")
+
+///////////////////////////////////////      eft_30_more_rpm
+
+ATT = {}
+
+ATT.PrintName = "Rate of Fire +30%"
+ATT.CompactName = "RoF +30%"
+ATT.Icon = Material("entities/eft_extras_attachments/good_gaming_chair", "mips smooth")
+ATT.Description = [[30% rate of fire increase
+works on semi auto
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
+ATT.Free = true
+
+ATT.RPMMult = 1.3
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_30_more_rpm")
 
 ///////////////////////////////////////      eft_50_more_rpm
 
@@ -111,7 +142,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 1.5 
+ATT.RPMMult = 1.5
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -125,7 +156,6 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_50_more_rpm")
-
 
 ///////////////////////////////////////      eft_10_less_rpm
 
@@ -144,7 +174,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 0.9 
+ATT.RPMMult = 0.9
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -176,7 +206,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 0.8 
+ATT.RPMMult = 0.8
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -208,7 +238,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 0.75 
+ATT.RPMMult = 0.75
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -222,6 +252,38 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_25_less_rpm")
+
+///////////////////////////////////////      eft_30_less_rpm
+
+ATT = {}
+
+ATT.PrintName = "Rate of Fire -30%"
+ATT.CompactName = "RoF -30%"
+ATT.Icon = Material("entities/eft_extras_attachments/bad_gaming_chair.png", "mips smooth")
+ATT.Description = [[30% rate of fire decrease
+
+!!! THESE CAN BREAK YOUR GUN IF YOU STACK TOO MANY, BE CAREFUL !!!
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "RoF Mods"
+ATT.Free = true
+
+ATT.RPMMult = 0.7
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_30_less_rpm")
 
 ///////////////////////////////////////      eft_50_less_rpm
 
@@ -240,7 +302,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "RoF Mods"
 ATT.Free = true
 
-ATT.RPMMult = 0.5 
+ATT.RPMMult = 0.5
 
 ATT.Category = {"eft_custom_slot"}
 
@@ -254,7 +316,6 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_50_less_rpm")
-
 
 ///////////////////////////////////////      eft_2_burst
 
@@ -296,7 +357,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_2_burst")
 
-
 ///////////////////////////////////////      eft_3_burst
 
 ATT = {}
@@ -336,7 +396,6 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_3_burst")
-
 
 ///////////////////////////////////////      eft_4_burst
 
@@ -459,7 +518,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_2_burst_runaway")
 
-
 ///////////////////////////////////////      eft_3_burst_runaway
 
 ATT = {}
@@ -500,7 +558,6 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_3_burst_runaway")
-
 
 ///////////////////////////////////////      eft_4_burst_runaway
 
@@ -648,7 +705,6 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_free_recoil_lite")
-
 
 ///////////////////////////////////////      eft_free_ergonomics
 
@@ -1039,8 +1095,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_cycle_time")
 
-local ATT = {}
-
 ///////////////////////////////////////      eft_rifle_hold_3
 
 ATT = {}
@@ -1317,7 +1371,7 @@ ARC9.LoadAttachment(ATT, "eft_tracer_default")
 
 ATT = {}
 
-ATT.PrintName = "Auto Selector"
+ATT.PrintName = "Full Auto Selector"
 ATT.CompactName = "Auto Selector"
 ATT.Icon = Material("entities/eft_extras_attachments/full_auto_selector.png", "mips smooth")
 ATT.Description = [[Fire Selector with Full Auto and Semi
@@ -1351,3 +1405,363 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_auto_selector")
+
+///////////////////////////////////////      eft_jam_chance_increase
+
+ATT = {}
+
+ATT.PrintName = "Malfunction Chance Increase"
+ATT.CompactName = "Jam Chance+"
+ATT.Icon = Material("entities/eft_extras_attachments/jam_chance_increase.png", "mips smooth")
+ATT.Description = [[Increases the chances a malfunction may occur.
+
+User requested by kvakushkaebanushka (mr.lyagushka)
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.MalfunctionMeanShotsToFailMult = 0.75
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_jam_chance_increase")
+
+///////////////////////////////////////      eft_jam_chance_decrease
+
+ATT = {}
+
+ATT.PrintName = "Malfunction Chance Decrease"
+ATT.CompactName = "Jam Chance-"
+ATT.Icon = Material("entities/eft_extras_attachments/jam_chance_decrease.png", "mips smooth")
+ATT.Description = [[Decreases the chances a malfunction may occur.
+
+User requested by kvakushkaebanushka (mr.lyagushka)
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true 
+
+ATT.MalfunctionMeanShotsToFailMult = 1.25
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_jam_chance_decrease")
+
+///////////////////////////////////////      eft_reload_plus_10
+
+ATT = {}
+
+ATT.PrintName = "Faster Reload Speed"
+ATT.CompactName = "Reload +10%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_plus.png", "mips smooth")
+ATT.Description = [[Increases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 0.9
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_plus_10")
+
+///////////////////////////////////////      eft_reload_plus_20
+
+ATT = {}
+
+ATT.PrintName = "Faster Reload Speed"
+ATT.CompactName = "Reload +20%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_plus.png", "mips smooth")
+ATT.Description = [[Increases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 0.8
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_plus_20")
+
+///////////////////////////////////////      eft_reload_plus_25
+
+ATT = {}
+
+ATT.PrintName = "Faster Reload Speed"
+ATT.CompactName = "Reload +25%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_plus.png", "mips smooth")
+ATT.Description = [[Increases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 0.75
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_plus_25")
+
+///////////////////////////////////////      eft_reload_plus_30
+
+ATT = {}
+
+ATT.PrintName = "Faster Reload Speed"
+ATT.CompactName = "Reload +30%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_plus.png", "mips smooth")
+ATT.Description = [[Increases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 0.7
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_plus_30")
+
+///////////////////////////////////////      eft_reload_plus_50
+
+ATT = {}
+
+ATT.PrintName = "Faster Reload Speed"
+ATT.CompactName = "Reload +50%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_plus.png", "mips smooth")
+ATT.Description = [[Increases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 0.5
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_plus_50")
+
+///////////////////////////////////////      eft_reload_minus_10
+
+ATT = {}
+
+ATT.PrintName = "Slower Reload Speed"
+ATT.CompactName = "Reload -10%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_minus.png", "mips smooth")
+ATT.Description = [[Decreases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 1.1
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_minus_10")
+
+///////////////////////////////////////      eft_reload_minus_20
+
+ATT = {}
+
+ATT.PrintName = "Slower Reload Speed"
+ATT.CompactName = "Reload -20%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_minus.png", "mips smooth")
+ATT.Description = [[Decreases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 1.2
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_minus_20")
+
+///////////////////////////////////////      eft_reload_minus_25
+
+ATT = {}
+
+ATT.PrintName = "Slower Reload Speed"
+ATT.CompactName = "Reload -25%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_minus.png", "mips smooth")
+ATT.Description = [[Decreases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 1.25
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_minus_25")
+
+///////////////////////////////////////      eft_reload_minus_30
+
+ATT = {}
+
+ATT.PrintName = "Slower Reload Speed"
+ATT.CompactName = "Reload -30%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_minus.png", "mips smooth")
+ATT.Description = [[Decreases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 1.3
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_minus_30")
+
+///////////////////////////////////////      eft_reload_minus_50
+
+ATT = {}
+
+ATT.PrintName = "Slower Reload Speed"
+ATT.CompactName = "Reload -50%"
+ATT.Icon = Material("entities/eft_extras_attachments/reload_speed_minus.png", "mips smooth")
+ATT.Description = [[Decreases Reload Speed.
+
+GrechHerald's EFT Extras]] 
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Reloads"
+ATT.AttNotForNPCs = true 
+
+ATT.ReloadTimeMult = 1.5
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_reload_minus_50")
