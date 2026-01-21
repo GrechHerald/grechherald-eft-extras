@@ -1420,6 +1420,7 @@ GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.MalfunctionMeanShotsToFailMult = 0.75
 
@@ -1450,6 +1451,7 @@ GrechHerald's EFT Extras]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.MalfunctionMeanShotsToFailMult = 1.25
 
@@ -1480,6 +1482,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 0.9
 
@@ -1510,6 +1513,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 0.8
 
@@ -1540,6 +1544,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 0.75
 
@@ -1570,6 +1575,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 0.7
 
@@ -1600,6 +1606,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 0.5
 
@@ -1630,6 +1637,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 1.1
 
@@ -1660,6 +1668,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 1.2
 
@@ -1690,6 +1699,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 1.25
 
@@ -1720,6 +1730,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 1.3
 
@@ -1750,6 +1761,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Reloads"
 ATT.AttNotForNPCs = true 
+ATT.Free = true
 
 ATT.ReloadTimeMult = 1.5
 
@@ -1765,3 +1777,4 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_reload_minus_50")
+
