@@ -771,3 +771,179 @@ ATT.Attachments = {
 ATT.Category = {"eft_hglower_m16a2"}
 
 ARC9.LoadAttachment(ATT, "eft_hg_ar15_m16a2_lower_tac")
+
+///////////////////////////////////////      eft_m1a_muzzle_fsup_silencer
+
+ATT = {}
+
+ATT.PrintName = "M1A National Match 7.62x51 flash suppressor"
+ATT.CompactName = "M1A NM"
+ATT.Icon = Material("entities/eft_extras_attachments/m1a_national_match_silencer.png", "mips smooth")
+ATT.Description = [[A muzzle brake-compensator for M1A rifles, manufactured by Springfield Armory. Modified to mount a Suppressor.
+
+GrechHerald's EFT Extras]]
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.SpreadMult = 0.98
+ATT.HeatCapacityMult = 0.99
+
+ATT.SortOrder = -2
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_m1a_springfield_armory_national_match_flash_suppres.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.Category = {"eft_muzzle_m1a_22"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_frontsight"),
+        Category = "eft_m1a_fs",
+        Pos = Vector(-0.24, 0, -0.54),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+	{
+		PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
+        Category = "eft_dthybrid",
+        Pos = Vector(-0.6, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+	},
+}
+
+ARC9.LoadAttachment(ATT, "eft_m1a_muzzle_fsup_silencer")
+
+///////////////////////////////////////      eft_mag_ak_alum_762_30
+
+ATT = {}
+
+ATT.PrintName = "AK 7.62x39 aluminium 30-round magazine"
+ATT.CompactName = "AK al. 30"
+ATT.Icon = Material("entities/eft_ak_attachments/mag/762al10.png", "mips smooth")
+ATT.Description = [[A 30-round aluminum magazine for 7.62x39 AK and compatible weapons, made of light aluminum alloy and reinforced by additional ribs. It's quite a rarity, as it was never in mass production. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons.
+AKMS aluminium mag but black basically lol.
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_akms_aluminium_762x39_30.mdl"
+ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_ak_izhmash_akms_aluminium_762x39_30.mdl"
+ATT.ModelSkin = 1
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
+ATT.Category = {
+    "eft_ak_762_mag",
+}
+
+ATT.ActivateElements = {"762"}
+
+ATT.ChamberSize = 1
+ATT.ClipSize = 30
+
+ATT.HookP_TranslateSound = function(self, data) -- that is metal mag
+    if data.sound == ")weapons/darsu_eft/ak/ak74_magin_plastic.ogg" then
+        data.sound = ")weapons/darsu_eft/ak/akm_magin_metal.ogg"
+    elseif data.sound == ")weapons/darsu_eft/ak/ak74_magout_plastic.ogg" then
+        data.sound = ")weapons/darsu_eft/ak/akm_magout_metal.ogg"
+    end
+    return data
+end
+
+ARC9.LoadAttachment(ATT, "eft_mag_ak_alum_762_30")
+
+///////////////////////////////////////      eft_aek_hg_prototype_gp25
+
+ATT = {}
+
+ATT.PrintName = "AEK-971 5.45x39 prototype front-end assembly"
+ATT.CompactName = "AEK-PROTO GP-25"
+ATT.Icon = Material("entities/eft_extras_attachments/aek_hg_proto_gp25.png", "mips smooth")
+ATT.Description = [[Prototype front-end assembly with polymer handguard for the AEK-971 5.45x39mm assault rifle.
+
+Can mount a GP-25 (Bad Company 2 style).
+GrechHerald's EFT Extras]]
+
+ATT.HasHG = true
+ATT.Model = "models/weapons/arc9/zwei/mods/aek_hg_proto.mdl"
+ATT.ModelOffset = Vector(-17.597, -5.007, 4.223)
+ATT.ModelAngleOffset = Angle(0, 180, 0)
+
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7"}
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_aek_hg"}
+
+ATT.ActivateElements = {"eft_cat_launcher"}
+
+ATT.Attachments = {
+    { 
+        PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
+        Category = "eft_ak74_muzzle",
+        Bone = "mod_muzzle",
+        Pos = Vector(16.9, -0.1, -0.15),
+        Ang = Angle(0, 180, 0),
+        Icon_Offset = Vector(0, 0, 0.15),
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
+        Category = "eft_aek_lightmount",
+        Pos = Vector(13.75, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1.5),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_aek_hg_prototype_gp25")
+
+///////////////////////////////////////      eft_aek_hg_experimental_gp25
+
+ATT = {}
+
+ATT.PrintName = "AEK-971 5.45x39 experimental front-end assembly"
+ATT.CompactName = "AEK-EXP GP-25"
+ATT.Icon = Material("entities/eft_extras_attachments/aek_hg_expie_gp25.png", "mips smooth")
+ATT.Description = [[Experimental front-end assembly with longer gas tube system and lightweight bakelite handguard for the AEK-971 5.45x39mm assault rifle.
+
+Can mount a GP-25.
+GrechHerald's EFT Extras]]
+
+ATT.HasHG = true
+ATT.Model = "models/weapons/arc9/zwei/mods/aek_hg_expie.mdl"
+ATT.ModelOffset = Vector(-17.597, -5.007, 4.223)
+ATT.ModelAngleOffset = Angle(0, 180, 0)
+
+ATT.EFTErgoAdd = 9
+ATT.CustomPros = { Ergonomics = "+9"}
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Category = {"eft_aek_hg"}
+
+ATT.Attachments = {
+    { -- 5.45 long
+        PrintName = ARC9:GetPhrase("eft_cat_muzzle"),
+        Category = "eft_ak74_muzzle",
+        Bone = "mod_muzzle",
+        Pos = Vector(17.2, -0.1, -0.15),
+        Ang = Angle(0, 180, 0),
+        Icon_Offset = Vector(0, 0, 0.15),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_aek_hg_experimental_gp25")
