@@ -737,6 +737,37 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_free_ergonomics")
 
+///////////////////////////////////////      eft_free_ergonomics_lite
+
+ATT = {}
+
+ATT.PrintName = "Ergonomics+ lite"
+ATT.CompactName = "Ergonomics+ lite"
+ATT.Icon = Material("entities/eft_extras_attachments/ergonomics", "mips smooth")
+ATT.Description = [[Ergonomics boost for faster Aim Down Sights
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Free = true
+ATT.AttNotForNPCs = true 
+
+ATT.EFTErgoAdd = 35
+ATT.CustomPros = { Ergonomics = "+35" }
+
+ATT.Category = {"eft_custom_slot"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Custom slot",
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_free_ergonomics_lite")
+
 ///////////////////////////////////////      eft_player_colour_tracer
 
 ATT = {}
@@ -926,6 +957,42 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_spread_plus")
+
+///////////////////////////////////////      eft_mk14_rifle_hold
+
+ATT = {}
+
+ATT.PrintName = "Alt viewmodel position for the M1A (Insurgency Sandstorm edition)"
+ATT.CompactName = "MK14 hold"
+ATT.Icon = Material("entities/eft_extras_attachments/mk14_hold.png", "mips smooth")
+ATT.Description = [[Insurgency Sandstorm MK14 EBR-like position for the M1A 
+FOV: 70, Active Position: -1, -8.5, -1
+
+GrechHerald's EFT Extras]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.AttNotForNPCs = true
+ATT.Free = true
+
+ATT.ViewModelFOVBase = 70
+ATT.ActivePos = Vector(-1, -8.5, -1)
+ATT.ActiveAng = Angle(0, 0, 0)
+ATT.SprintAng = Angle(60, 0, -10)
+ATT.SprintPos = Vector(15, -1, -3)
+ATT.CrouchPos = Vector(0, -0.5, -0.2)
+ATT.CrouchAng = Angle(0, 0, -4)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
+        Pos = Vector(0, 0, 1),
+        Ang = Angle(0, 0, 0),
+        Category = {"eft_custom_slot"},
+    },
+}
+
+ATT.Category = {"eft_custom_slot"}
+ARC9.LoadAttachment(ATT, "eft_mk14_rifle_hold")
 
 ///////////////////////////////////////      eft_spread_minus
 
